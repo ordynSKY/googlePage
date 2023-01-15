@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import image from "./assets/milky-way-2695569_1280.jpeg";
+import "./App.css";
+import React from "react";
+import Header from "./components/Header";
+import SearchBar from "./components/SearchBar";
+import Widgets from "./components/Widgets";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <div
+                style={{
+                    backgroundImage: `url(${image})`,
+                    height: "725px",
+                }}
+            >
+                <header>
+                    <Header />
+                </header>
+                <main>
+                    <SearchBar />
+                    <Widgets />
+                </main>
+            </div>
+        </>
+    );
 }
 
 export default App;
