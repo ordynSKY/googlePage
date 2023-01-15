@@ -1,26 +1,17 @@
 import React from "react";
-import icon from "../assets/b1p4.jpg";
+import icon from "../assets/toppng.com-youtube-icon-logo-transparent-youtube-3500x2458.png";
 
 const Widgets = () => {
     return(
         <>
         <div
-                        style={{
-                            display: "flex",
-                            justifyContent: "space-around",
-                            margin: "20px auto",
-                            width: "577px",
-                        }}
+                        className='widgets'
                     >
                         <a href="youtube.com" className="tile ">
                             <img
                                 src={icon}
                                 alt="avatar"
-                                style={{
-                                    borderRadius: "50%",
-                                    width: "50px",
-                                    height: "50px",
-                                }}
+                                className='widget_icon'
                             />
                             <div className="tile-title title-ltr">
                                 <span>(2) YouTube</span>
@@ -31,11 +22,7 @@ const Widgets = () => {
                             <img
                                 src={icon}
                                 alt="avatar"
-                                style={{
-                                    borderRadius: "50%",
-                                    width: "50px",
-                                    height: "50px",
-                                }}
+                               className='widget_icon'
                             />
                             <div className="tile-title title-ltr">
                                 <span>(2) YouTube</span>
@@ -46,11 +33,7 @@ const Widgets = () => {
                             <img
                                 src={icon}
                                 alt="avatar"
-                                style={{
-                                    borderRadius: "50%",
-                                    width: "50px",
-                                    height: "50px",
-                                }}
+                                className='widget_icon'
                             />
                             <div className="tile-title title-ltr">
                                 <span>(2) YouTube</span>
@@ -60,11 +43,7 @@ const Widgets = () => {
                             <img
                                 src={icon}
                                 alt="avatar"
-                                style={{
-                                    borderRadius: "50%",
-                                    width: "50px",
-                                    height: "50px",
-                                }}
+                                className='widget_icon'
                             />
                             <div className="tile-title title-ltr">
                                 <span>(2) YouTube</span>
@@ -74,11 +53,7 @@ const Widgets = () => {
                             <img
                                 src={icon}
                                 alt="avatar"
-                                style={{
-                                    borderRadius: "50%",
-                                    width: "50px",
-                                    height: "50px",
-                                }}
+                                className='widget_icon'
                             />
                             <div className="tile-title title-ltr">
                                 <span>(2) YouTube</span>
@@ -86,22 +61,13 @@ const Widgets = () => {
                         </a>
                     </div>
                     <div
-                        style={{
-                            display: "flex",
-                            justifyContent: "space-around",
-                            margin: "20px auto",
-                            width: "577px",
-                        }}
+                        className='widgets'
                     >
                         <a href="youtube.com" className="tile ">
                             <img
                                 src={icon}
                                 alt="avatar"
-                                style={{
-                                    borderRadius: "50%",
-                                    width: "50px",
-                                    height: "50px",
-                                }}
+                                className='widget_icon'
                             />
                             <div className="tile-title title-ltr">
                                 <span>(2) YouTube</span>
@@ -112,11 +78,7 @@ const Widgets = () => {
                             <img
                                 src={icon}
                                 alt="avatar"
-                                style={{
-                                    borderRadius: "50%",
-                                    width: "50px",
-                                    height: "50px",
-                                }}
+                               className='widget_icon'
                             />
                             <div className="tile-title title-ltr">
                                 <span>(2) YouTube</span>
@@ -127,11 +89,7 @@ const Widgets = () => {
                             <img
                                 src={icon}
                                 alt="avatar"
-                                style={{
-                                    borderRadius: "50%",
-                                    width: "50px",
-                                    height: "50px",
-                                }}
+                               className='widget_icon'
                             />
                             <div className="tile-title title-ltr">
                                 <span>(2) YouTube</span>
@@ -141,11 +99,7 @@ const Widgets = () => {
                             <img
                                 src={icon}
                                 alt="avatar"
-                                style={{
-                                    borderRadius: "50%",
-                                    width: "50px",
-                                    height: "50px",
-                                }}
+                                className='widget_icon'
                             />
                             <div className="tile-title title-ltr">
                                 <span>(2) YouTube</span>
@@ -155,11 +109,7 @@ const Widgets = () => {
                             <img
                                 src={icon}
                                 alt="avatar"
-                                style={{
-                                    borderRadius: "50%",
-                                    width: "50px",
-                                    height: "50px",
-                                }}
+                                className='widget_icon'
                             />
                             <div className="tile-title title-ltr">
                                 <span>(2) YouTube</span>

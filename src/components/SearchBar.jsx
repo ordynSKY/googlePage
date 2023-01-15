@@ -31,6 +31,7 @@ const SearchBar = () => {
                                 display: "flex",
                                 alignItems: "center",
                                 width: 561,
+                                m: '0px 20px'
                             }}
                         >
                             <SearchIcon />

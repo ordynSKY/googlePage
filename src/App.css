@@ -59,7 +59,7 @@
 }
 
 .tile:hover {
-    background-color: rgb(239, 240, 243);
+    background-color: rgb(140, 141, 144);
 }
 
 .title-ltr {
@@ -77,8 +77,36 @@
     padding: 2px 8px;
     width: 88px;
     font-size: 13px;
+    justify-content: center;
 }
 
-.tile-title:hover {
-    color: black;
+.widgets {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 577px;
+}
+
+.widget_icon {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 375px) {
+    .widgets {
+        width: 300px;
+    }
+    .tile {
+        width: 60px;
+        height: 60px;
+    }
+    .widget_icon {
+        width: 25px;
+        height: 25px;
+    }
+    .tile-title {
+        font-size: 9px;
+        justify-content: center;
+    }
 }
