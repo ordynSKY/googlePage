@@ -17,7 +17,7 @@ const Header = () => {
                         }}
                     >
                         <a
-                            href="google.com"
+                            href="https://mail.google.com/mail/?tab=rm&authuser=0&ogbl"
                             style={{
                                 color: "white",
                                 textDecoration: "none",
@@ -28,7 +28,7 @@ const Header = () => {
                             Gmail
                         </a>
                         <a
-                            href="google.com"
+                            href="https://www.google.com.ua/imghp?hl=en-GB&tab=ri&authuser=0&ogbl"
                             style={{
                                 color: "white",
                                 textDecoration: "none",
@@ -40,10 +40,10 @@ const Header = () => {
                         >
                             Images
                         </a>
-                        <a href="google.com" style={{ color: "white" }}>
+                        <a href="https://www.google.com.ua/intl/en-GB/about/products?tab=rh" style={{ color: "white" }}>
                             <AppsIcon />
                         </a>
-                        <a href="google.com">
+                        <a href="https://accounts.google.com/SignOutOptions?hl=en-GB&continue=https://www.google.com%3Fhl%3Den-GB">
                             <img
                                 src={avatar}
                                 alt="avatar"

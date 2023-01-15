@@ -14,6 +14,7 @@ const SearchBar = () => {
                             justifyContent: "center",
                             color: "white",
                             fontSize: "48px",
+                            fontFamily: 'sans-serif'
                         }}
                     >
                         <h1>Google</h1>
